@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#randomText {
+    color: white;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    max-width: 90%;
+    word-wrap: break-word;
+    font-size: 24px;
+}
