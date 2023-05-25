@@ -19,7 +19,7 @@ body {
     font-size: 36px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     #quote {
         font-size: 60px;
     }
