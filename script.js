@@ -92,7 +92,19 @@ var textArray = [
     "Make an exhaustive list of everything you might do… and do the last one",
     "How would the brand or product behave in zero gravity?",
     "What would an extremely simplified or intentionally complicated version look like?",
-    "What would this brand bring to a deserted island?"
+    "What would this brand bring to a deserted island?",
+    "Diagram the challenge. What does it look like?",
+    "What myth or legend could be associated with this?",
+    "What is unique about how people in this market use us?",
+    "How could we transform the brand into a fashion statement?",
+    "If the brand was banned, how would we secretly communicate about it?",
+    "If the brand was a religion, what would be its tenets?",
+    "Where is this absolutely essential?",
+    "What is the most outrageous partnership we could make?",
+    "Precisely define the jobs to be done",
+    "Leverage the long tail",
+    "What is the most controversial yet positive thing we could do?",
+    "What is the most unconventional journey someone could take to this brand?"
 ];
 
 window.onload = initialText;
