@@ -6,14 +6,19 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    font-family: 'Georgia', serif;
 }
 
-#randomText {
+#quote {
+    font-size: 2em;
     color: white;
-    font-family: 'Times New Roman', serif;
+    padding: 2em;
     text-align: center;
-    max-width: 90%;
-    word-wrap: break-word;
-    font-size: 36px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    #quote {
+        font-size: 3em;
+    }
 }
