@@ -104,7 +104,9 @@ var textArray = [
     "Precisely define the jobs to be done",
     "Leverage the long tail",
     "What is the most controversial yet positive thing we could do?",
-    "What is the most unconventional journey someone could take to this brand?"
+    "What is the most unconventional journey someone could take to this brand?",
+    "What do only the most loyal customers know about this?",
+    "What would be the most effective celebrity endorsement?"
 ];
 
 window.onload = initialText;
