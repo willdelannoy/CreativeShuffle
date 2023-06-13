@@ -28,7 +28,7 @@ body {
     left: 10%;
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding: -10px 20px;
     border: 2px solid white;
     box-sizing: border-box;
     border-radius: 20px;
