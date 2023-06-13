@@ -43,7 +43,7 @@ body {
 #overlay img {
     max-width: 100%;  /* Adjust as needed */
     height: auto;  /* Adjust as needed */
-    margin-bottom: 15px;  /* Adjust as needed */
+    margin-bottom: 0px;  /* Adjust as needed */
 }
 
 #start {
