@@ -1,4 +1,4 @@
-let lines = [
+const prompts = [
     "What could a customer substitute for your product, outside of the category?",
     "How was it done before the internet?",
     "Team up with an enemy",
@@ -109,18 +109,21 @@ let lines = [
     "What would be the most effective celebrity endorsement?"
 ];
 
-let overlay = document.getElementById('overlay');
-let intro = document.getElementById('intro');
-let startButton = document.getElementById('start');
+let index = 0;
 
-function displayLine() {
-    let line = lines[Math.floor(Math.random() * lines.length)];
-    document.getElementById('text-display').innerText = line;
+// Function to show a random prompt
+function showPrompt() {
+  index = Math.floor(Math.random() * prompts.length);
+  document.getElementById('text').textContent = prompts[index];
 }
 
-startButton.addEventListener('click', function() {
-    overlay.style.display = 'none';
-    displayLine();
+// Event listener for clicks on the body
+document.body.addEventListener('click', showPrompt);
+
+// Event listener for "Let's Go" button
+document.getElementById('start').addEventListener('click', function() {
+  document.getElementById('overlay').style.display = 'none';
 });
 
-document.body.addEventListener('click', displayLine);
+// Display first prompt
+showPrompt();
