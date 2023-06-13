@@ -1,55 +1,31 @@
 body {
     background-color: black;
-    color: white;
-    font-family: serif;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+#randomText {
+    color: white;
+    font-family: 'Times New Roman', serif;   
+    font-size: 48px;
+    color: white;
+    padding: 1em;
+    max-width: 80%;  /* restrict width to avoid side overflow */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#content {
+    height: 100vh; 
     text-align: center;
-    font-size: 2rem;
-    padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    #content {
-        font-size: 3rem;
+@media screen and (max-width: 1600px) {
+    #quote {
+        font-size: 90px;
     }
 }
-
-#overlay {
-    position: fixed;
-    display: block;
-    width: 60%;  /* Adjust to desired width */
-    height: 30%; /* Adjust to desired height */
-    top: 20%;    /* Adjust to center vertically */
-    left: 20%;   /* Adjust to center horizontally */
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 2;
-    cursor: pointer;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#text {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#start {
-    font-size: 1.25rem;
-    color: white;
-    background-color: black;
-    border: solid 1px white;
-    padding: 10px;
-    cursor: pointer;
-}
-
