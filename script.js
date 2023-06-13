@@ -113,6 +113,7 @@ let currentIndex = 0;
 
 const textElement = document.getElementById('text');
 const buttonElement = document.getElementById('start');
+const bodyElement = document.querySelector('body');
 
 function nextLine() {
     textElement.innerText = prompts[currentIndex];
@@ -124,8 +125,8 @@ window.onload = function() {
         document.getElementById('overlay').style.display = 'none';
         nextLine();
     };
-};
 
-textElement.onclick = function() {
-    nextLine();
+    bodyElement.onclick = function() {
+        nextLine();
+    };
 };
