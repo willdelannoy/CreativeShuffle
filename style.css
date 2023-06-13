@@ -19,6 +19,9 @@ body {
 
 #overlay {
     position: fixed;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
     width: 80%;
     height: 60%;
     top: 20%;
@@ -35,6 +38,12 @@ body {
     align-items: center;
     font-size: .75em;
     text-align: center;
+}
+
+#overlay img {
+    max-width: 100%;  /* Adjust as needed */
+    height: auto;  /* Adjust as needed */
+    margin-bottom: 15px;  /* Adjust as needed */
 }
 
 #start {
