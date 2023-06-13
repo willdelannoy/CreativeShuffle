@@ -109,21 +109,23 @@ const prompts = [
     "What would be the most effective celebrity endorsement?"
 ];
 
-let index = 0;
+let currentIndex = 0;
 
-// Function to show a random prompt
-function showPrompt() {
-  index = Math.floor(Math.random() * prompts.length);
-  document.getElementById('text').textContent = prompts[index];
+const textElement = document.getElementById('text');
+const buttonElement = document.getElementById('start');
+
+function nextLine() {
+    textElement.innerText = prompts[currentIndex];
+    currentIndex = (currentIndex + 1) % prompts.length;
 }
 
-// Event listener for clicks on the body
-document.body.addEventListener('click', showPrompt);
+window.onload = function() {
+    buttonElement.onclick = function() {
+        document.getElementById('overlay').style.display = 'none';
+        nextLine();
+    };
+};
 
-// Event listener for "Let's Go" button
-document.getElementById('start').addEventListener('click', function() {
-  document.getElementById('overlay').style.display = 'none';
-});
-
-// Display first prompt
-showPrompt();
+textElement.onclick = function() {
+    nextLine();
+};
