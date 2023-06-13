@@ -19,6 +19,7 @@ body {
 
 #overlay {
     position: fixed;
+    align-items: center;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
@@ -28,7 +29,6 @@ body {
     left: 10%;
     background-color: black;
     color: white;
-    padding: -25px 20px;
     border: 2px solid white;
     box-sizing: border-box;
     border-radius: 20px;
