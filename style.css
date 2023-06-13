@@ -37,11 +37,23 @@ body {
 }
 
 #start {
-    color: white;
-    background-color: black;
+    background-color: #ffffff; 
+    color: #000000; 
+    border: none;
     padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
+    transition-duration: 0.4s;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+#start:hover {
+    background-color: #ddd;
+    color: black;
