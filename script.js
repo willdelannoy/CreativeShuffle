@@ -109,23 +109,25 @@ const prompts = [
     "What would be the most effective celebrity endorsement?"
 ];
 
-let currentIndex = 0;
-
-const textElement = document.getElementById('text');
-const buttonElement = document.getElementById('start');
-
-function nextLine() {
-    textElement.innerText = prompts[currentIndex];
-    currentIndex = (currentIndex + 1) % prompts.length;
-}
+let index = 0;
 
 window.onload = function() {
-    buttonElement.onclick = function() {
+    document.getElementById('start').addEventListener('click', function() {
         document.getElementById('overlay').style.display = 'none';
-        nextLine();
-    };
-};
+        nextPrompt();
+    });
+    
+    document.addEventListener('click', function() {
+        if (document.getElementById('overlay').style.display === 'none') {
+            nextPrompt();
+        }
+    });
+}
 
-textElement.onclick = function() {
-    nextLine();
-};
+function nextPrompt() {
+    if (index === prompts.length) {
+        index = 0;
+    }
+    document.getElementById('prompt').textContent = prompts[index];
+    index++;
+}
