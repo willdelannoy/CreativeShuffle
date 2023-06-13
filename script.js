@@ -1,8 +1,4 @@
-Copy code
-let overlay = document.getElementById("overlay");
-let start = document.getElementById("start");
-
-let linesOfText = [
+let lines = [
     "What could a customer substitute for your product, outside of the category?",
     "How was it done before the internet?",
     "Team up with an enemy",
@@ -113,21 +109,18 @@ let linesOfText = [
     "What would be the most effective celebrity endorsement?"
 ];
 
+let overlay = document.getElementById('overlay');
+let intro = document.getElementById('intro');
+let startButton = document.getElementById('start');
 
-let textElement = document.getElementById("text");
-
-function changeText() {
-    let randomIndex = Math.floor(Math.random() * linesOfText.length);
-    textElement.innerText = linesOfText[randomIndex];
+function displayLine() {
+    let line = lines[Math.floor(Math.random() * lines.length)];
+    document.getElementById('text-display').innerText = line;
 }
 
-document.addEventListener("click", function() {
-    changeText();
+startButton.addEventListener('click', function() {
+    overlay.style.display = 'none';
+    displayLine();
 });
 
-start.addEventListener("click", function() {
-    overlay.style.display = "none";
-});
-
-// On page load, change the text to a random line
-window.onload = changeText;
+document.body.addEventListener('click', displayLine);
