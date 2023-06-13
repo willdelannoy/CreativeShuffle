@@ -20,8 +20,8 @@ body {
 #overlay {
     position: fixed;
     width: 80%;
-    height: 50%;
-    top: 25%;
+    height: 70%;
+    top: 15%;
     left: 10%;
     background-color: black;
     color: white;
