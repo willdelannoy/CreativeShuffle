@@ -7,6 +7,7 @@ const prompts = [
     "How would it show up on a sitcom like the office?",
     "Find the opposite pole",
     "What Venn Diagram does this sit at the center of?",
+    "Start inside rather than outside",
     "Let go of something that feels sacred",
     "Who else has solved a challenge like this?",
     "How does this relate to the headlines on NYTimes.com today?",
