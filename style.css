@@ -72,8 +72,8 @@ body {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 5px; /* Space between the columns and the button */
+    gap: 5px;
+    margin-bottom: 25px; /* Space between the columns and the button */
 }
 
 .column {
