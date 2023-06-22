@@ -78,7 +78,7 @@ body {
 
 .column {
     flex: 1;
-    font-size: .6em;
+    font-size: .75em;
     text-align: center; /* Change this if you want centered or right-aligned text */
 }
 
