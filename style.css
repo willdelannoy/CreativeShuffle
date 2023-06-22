@@ -37,7 +37,7 @@ body {
     font-size: .75em;
     text-align: center;
     box-sizing: border-box;
-    margin-bottom: 40px;
+    margin: 20px auto;
 
 }
 
@@ -61,6 +61,8 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     transition-duration: 0.4s;
+    margin-bottom: 20px; /* Adjust the '20px' to increase or decrease the space */
+
 }
 
 #start:hover {
