@@ -72,6 +72,7 @@ body {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
+    font-size: .4em;
     gap: 20px;
     margin-bottom: 20px; /* Space between the columns and the button */
 }
