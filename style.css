@@ -38,13 +38,13 @@ body {
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 40px;
-    margin-top: 40px;
+
 }
 
 #overlay img {
     max-width: 100%;  /* Adjust as needed */
     height: auto;  /* Adjust as needed */
-    margin-bottom: -20px auto -40px auto;  /* Adjust as needed */
+    margin-bottom: -10px auto -10px auto;  /* Adjust as needed */
 }
 
 #start {
