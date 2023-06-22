@@ -72,12 +72,23 @@ body {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
-    font-size: .75em;
     gap: 20px;
-    margin-bottom: 20px; /* Space between the columns and the button */
+    margin-bottom: 25px; /* Space between the columns and the button */
 }
 
 .column {
     flex: 1;
+    font-size: .6em;
     text-align: center; /* Change this if you want centered or right-aligned text */
 }
+
+@media only screen and (max-width: 600px) {
+    #column-container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
