@@ -12,7 +12,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    margin: 30px 25px
     body {
         font-size: 6vw;
     }
@@ -76,12 +75,13 @@ body {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
+    gap: 50px;
     margin-bottom: 25px; /* Space between the columns and the button */
 }
 
 .column {
     font-size: .75em;
-    gap: 50px;
+
     text-align: center; /* Change this if you want centered or right-aligned text */
 }
 
