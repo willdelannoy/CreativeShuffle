@@ -37,7 +37,7 @@ body {
     font-size: .75em;
     text-align: center;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin: 20px auto and 20px auto;
 
 }
 
