@@ -88,6 +88,7 @@ body {
 @media only screen and (max-width: 600px) {
     #column-container {
         flex-direction: column;
+        gap: 3px
     }
 
     .column {
