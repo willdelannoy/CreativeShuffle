@@ -25,8 +25,8 @@ body {
     align-items: center; /* Added this */
     width: 80%;
     min-height: 60%;
-    top: 20%;
-    left: 20%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid white;
