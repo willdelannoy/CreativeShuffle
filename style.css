@@ -44,7 +44,7 @@ body {
 #overlay img {
     max-width: 100%;  /* Adjust as needed */
     height: auto;  /* Adjust as needed */
-    margin-top: 20px
+    margin-top: 20px;
     margin-bottom: 20px auto 20px auto;  /* Adjust as needed */
 }
 
@@ -82,14 +82,13 @@ body {
 
 .column {
     font-size: .75em;
-
     text-align: center; /* Change this if you want centered or right-aligned text */
 }
 
 @media only screen and (max-width: 600px) {
     #column-container {
         flex-direction: column;
-        gap: 0px
+        gap: 0px;
     }
 
     .column {
