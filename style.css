@@ -25,8 +25,8 @@ body {
     align-items: center; /* Added this */
     width: 80%;
     min-height: 60%;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 20%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid white;
@@ -44,7 +44,7 @@ body {
 #overlay img {
     max-width: 100%;  /* Adjust as needed */
     height: auto;  /* Adjust as needed */
-    margin-bottom: -10px auto -10px auto;  /* Adjust as needed */
+    margin-bottom: 20px auto 20px auto;  /* Adjust as needed */
 }
 
 #start {
