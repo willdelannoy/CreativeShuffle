@@ -75,13 +75,12 @@ body {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 25px;
     margin-bottom: 25px; /* Space between the columns and the button */
 }
 
 .column {
     font-size: .75em;
-    flex: auto
     text-align: center; /* Change this if you want centered or right-aligned text */
 }
 
@@ -92,6 +91,7 @@ body {
 
     .column {
         width: 100%;
+        gap: 10px
         margin-bottom: 3px;
     }
 }
