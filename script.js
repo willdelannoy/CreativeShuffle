@@ -1,5 +1,8 @@
 const prompts = [
     "What could a customer substitute for your product, outside of the category?",
+    "What's odd about how people interact with this?",
+    "If this brand had a side hustle, what would it be?",
+    "If the brand threw a party, who would be there?",
     "How was it done before the internet?",
     "Team up with an enemy",
     "Who buys this for others? Why?",
