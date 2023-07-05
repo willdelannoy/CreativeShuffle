@@ -7,7 +7,7 @@ const prompts = [
     "Team up with an enemy",
     "Who buys this for others? Why?",
     "Search How to ______ on YouTube. Interrogate",
-    "How would it show up on a sitcom like the office?",
+    "How would it show up on a sitcom like The Office?",
     "Find the opposite pole",
     "What Venn Diagram does this sit at the center of?",
     "Start inside rather than outside",
