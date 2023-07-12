@@ -113,6 +113,24 @@ const prompts = [
     "What would be the most effective celebrity endorsement?"
 ];
 
+function shuffleArray(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
+
 let currentIndex = 0;
 
 const textElement = document.getElementById('text');
@@ -125,6 +143,7 @@ function nextLine() {
 }
 
 window.onload = function() {
+    shuffleArray(prompts); // shuffle the prompts on page load
     buttonElement.onclick = function() {
         document.getElementById('overlay').style.display = 'none';
         nextLine();
