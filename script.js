@@ -110,7 +110,12 @@ const prompts = [
     "What is the most controversial yet positive thing we could do?",
     "What is the most unconventional journey someone could take to this brand?",
     "What do only the most loyal customers know about this?",
-    "What would be the most effective celebrity endorsement?"
+    "What would be the most effective celebrity endorsement?",
+    “What’s the unseen threat?”,
+    “What’s the biggest barrier to purchase?”,
+    “Who are we not talking to?”,
+    “What better business could we be in?”,
+
 ];
 
 function shuffleArray(array) {
