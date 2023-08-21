@@ -107,14 +107,12 @@ const prompts = [
     "What is the most outrageous partnership we could make?",
     "Precisely define the jobs to be done",
     "Leverage the long tail",
+    "What better business could we be in?",
+    "Who are we not talking to?",
     "What is the most controversial yet positive thing we could do?",
     "What is the most unconventional journey someone could take to this brand?",
     "What do only the most loyal customers know about this?",
-    "What would be the most effective celebrity endorsement?",
-    “What’s the unseen threat?”,
-    “What’s the biggest barrier to purchase?”,
-    “Who are we not talking to?”
-
+    "What would be the most effective celebrity endorsement?"
 ];
 
 function shuffleArray(array) {
