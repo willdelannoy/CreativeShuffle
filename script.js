@@ -114,8 +114,7 @@ const prompts = [
     “What’s the unseen threat?”,
     “What’s the biggest barrier to purchase?”,
     “Who are we not talking to?”,
-    “What better business could we be in?”,
-
+    “What better business could we be in?”
 ];
 
 function shuffleArray(array) {
