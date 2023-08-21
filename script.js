@@ -113,8 +113,8 @@ const prompts = [
     "What would be the most effective celebrity endorsement?",
     “What’s the unseen threat?”,
     “What’s the biggest barrier to purchase?”,
-    “Who are we not talking to?”,
-    “What better business could we be in?”
+    “Who are we not talking to?”
+
 ];
 
 function shuffleArray(array) {
