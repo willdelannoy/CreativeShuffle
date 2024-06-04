@@ -6,7 +6,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Noto Sans, sans-serif;
+    font-family: 'Lato', sans-serif; /* Updated font */
+    font-weight: 300; /* Lato Light 300 */
     font-size: 2vw;
     text-align: center;
 }
@@ -33,7 +34,8 @@ body {
     border-radius: 0; /* Sharp corners */
     padding: 20px;
     color: #bd2a1f; /* Dark red text */
-    font-family: Noto Sans, sans-serif;
+    font-family: 'Lato', sans-serif; /* Updated font */
+    font-weight: 300; /* Lato Light 300 */
     font-size: .75em;
     text-align: center;
     box-sizing: border-box;
