@@ -42,7 +42,8 @@ body {
 }
 
 #overlay h1 {
-    font-family: Georgia, serif; /* Serif font for the header */
+    font-family: 'Crimson Pro', serif; /* Serif font for the header */
+    font-weight: 200; /* ExtraLight 200 weight */
 }
 
 #overlay img {
@@ -63,38 +64,4 @@ body {
     display: inline-block;
     margin-top: 50px;
     font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-#start:hover {
-    background-color: #a5261a; /* Slightly darker dark red */
-    color: #e2d7ca;
-}
-
-#column-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-wrap: wrap;
-    gap: 30px; /* Adjust the '30px' to increase or decrease the gap */
-    margin-bottom: 25px; /* Space between the columns and the button */
-}
-
-.column {
-    font-size: .75em;
-    text-align: center; /* Change this if you want centered or right-aligned text */
-}
-
-@media only screen and (max-width: 600px) {
-    #column-container {
-        flex-direction: column;
-        gap: 10px; /* Adjust the '10px' to increase or decrease the gap */
-    }
-
-    .column {
-        width: 100%;
-        margin-bottom: 3px; /* Adjust the '3px' to increase or decrease the space */
-    }
-}
+    margin: 
