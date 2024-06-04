@@ -19,6 +19,13 @@ body {
     #text {
         padding: 0 20px; /* Add padding to the text for mobile devices */
     }
+    .desktop {
+        display: none; /* Hide desktop header on mobile */
+    }
+    .mobile {
+        display: block; /* Show mobile header on mobile */
+        white-space: normal; /* Ensure the text wraps as specified */
+    }
 }
 
 #overlay {
@@ -103,4 +110,19 @@ body {
         width: 100%;
         margin-bottom: 3px; /* Adjust the '3px' to increase or decrease the space */
     }
+    .desktop {
+        display: none; /* Hide desktop header on mobile */
+    }
+    .mobile {
+        display: block; /* Show mobile header on mobile */
+        white-space: normal; /* Ensure the text wraps as specified */
+    }
+}
+
+/* Ensure desktop version is visible and mobile version is hidden by default */
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
 }
