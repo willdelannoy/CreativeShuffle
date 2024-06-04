@@ -29,7 +29,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(226, 215, 202, 0.9); /* Cream background with transparency */
+    background-color: #e2d7ca; /* Solid cream background */
     border: 1px solid #bd2a1f; /* Dark red border */
     border-radius: 0; /* Sharp corners */
     padding: 20px;
@@ -44,13 +44,15 @@ body {
 #overlay h1 {
     font-family: 'Crimson Pro', serif; /* Serif font for the header */
     font-weight: 200; /* ExtraLight 200 weight */
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin to bring header closer to image */
 }
 
 #overlay img {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 #start {
@@ -62,9 +64,8 @@ body {
     border-radius: 0; /* Sharp corners */
     text-decoration: none;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 50px; /* Margin-top set to 50px */
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
