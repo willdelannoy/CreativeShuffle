@@ -22,10 +22,10 @@ body {
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly; /* Evenly space the content */
     align-items: center;
     width: 80%;
-    min-height: 60%;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -44,15 +44,13 @@ body {
 #overlay h1 {
     font-family: 'Crimson Pro', serif; /* Serif font for the header */
     font-weight: 200; /* ExtraLight 200 weight */
-    margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin to bring header closer to image */
+    margin: 0; /* Remove default margin */
 }
 
 #overlay img {
     max-width: 100%;
     height: auto;
-    margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin */
+    margin: 0; /* Remove default margin */
 }
 
 #start {
@@ -64,7 +62,6 @@ body {
     border-radius: 0; /* Sharp corners */
     text-decoration: none;
     display: inline-block;
-    margin-top: 10px; /* Margin-top set to 50px */
     font-size: 16px;
     cursor: pointer;
     transition-duration: 0.4s;
@@ -81,7 +78,7 @@ body {
     align-items: start;
     flex-wrap: wrap;
     gap: 30px; /* Adjust the '30px' to increase or decrease the gap */
-    margin-bottom: 25px; /* Space between the columns and the button */
+    margin: 0; /* Remove default margin */
 }
 
 .column {
