@@ -39,6 +39,10 @@ body {
     box-sizing: border-box;
 }
 
+#overlay h1 {
+    font-family: Georgia, serif; /* Serif font for the header */
+}
+
 #overlay img {
     max-width: 100%;
     height: auto;
