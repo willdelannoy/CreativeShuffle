@@ -91,7 +91,7 @@ body {
     align-items: start;
     flex-wrap: wrap;
     gap: 30px; /* Adjust the '30px' to increase or decrease the gap */
-    margin-bottom: 25px; /* Space between the columns and the button */
+    margin-bottom: 10px; /* Space between the columns and the button */
 }
 
 .column {
