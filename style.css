@@ -30,7 +30,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: rgba(226, 215, 202, 0.9); /* Cream background with transparency */
     border: 1px solid #bd2a1f; /* Dark red border */
-    border-radius: 15px;
+    border-radius: 0; /* Sharp corners */
     padding: 20px;
     color: #bd2a1f; /* Dark red text */
     font-family: Noto Sans, sans-serif;
@@ -52,7 +52,7 @@ body {
     border: none;
     padding: 10px 20px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 0; /* Sharp corners */
     text-decoration: none;
     display: inline-block;
     margin-top: 50px;
