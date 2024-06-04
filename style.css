@@ -11,21 +11,19 @@ body {
     font-size: 2vw;
     text-align: center;
 }
-
 @media only screen and (max-width: 600px) {
     body {
         font-size: 6vw;
     }
 }
-
 #overlay {
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; /* Evenly space the content */
+    justify-content: space-around;
     align-items: center;
     width: 80%;
-    height: auto;
+    min-height: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -40,19 +38,18 @@ body {
     text-align: center;
     box-sizing: border-box;
 }
-
 #overlay h1 {
     font-family: 'Crimson Pro', serif; /* Serif font for the header */
     font-weight: 200; /* ExtraLight 200 weight */
-    margin: 0; /* Remove default margin */
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin to bring header closer to image */
 }
-
 #overlay img {
     max-width: 100%;
     height: auto;
-    margin: 0; /* Remove default margin */
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
 }
-
 #start {
     background-color: #bd2a1f; 
     color: #e2d7ca; 
@@ -62,38 +59,34 @@ body {
     border-radius: 0; /* Sharp corners */
     text-decoration: none;
     display: inline-block;
+    margin-top: 10px; /* Margin-top set to 50px */
     font-size: 16px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
-
 #start:hover {
     background-color: #a5261a; /* Slightly darker dark red */
     color: #e2d7ca;
 }
-
 #column-container {
     display: flex;
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
     gap: 30px; /* Adjust the '30px' to increase or decrease the gap */
-    margin: 0; /* Remove default margin */
+    margin-bottom: 25px; /* Space between the columns and the button */
 }
-
 .column {
     flex: 1 1 calc(25% - 30px); /* Four columns with gap */
     min-width: 200px; /* Adjust as needed */
     font-size: .75em;
     text-align: center; /* Change this if you want centered or right-aligned text */
 }
-
 @media only screen and (max-width: 600px) {
     #column-container {
         flex-direction: column;
         gap: 10px; /* Adjust the '10px' to increase or decrease the gap */
     }
-
     .column {
         width: 100%;
         margin-bottom: 3px; /* Adjust the '3px' to increase or decrease the space */
