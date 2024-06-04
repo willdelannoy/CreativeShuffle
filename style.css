@@ -55,7 +55,6 @@ body {
     font-family: 'Crimson Pro', serif; /* Serif font for the header */
     font-weight: 200; /* ExtraLight 200 weight */
     margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin to bring header closer to image */
 }
 
 #overlay img {
