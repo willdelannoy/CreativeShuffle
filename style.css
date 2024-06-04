@@ -29,7 +29,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #e2d7ca; /* Solid cream background */
+    background-color: rgba(226, 215, 202, 0.9); /* Cream background with transparency */
     border: 1px solid #bd2a1f; /* Dark red border */
     border-radius: 0; /* Sharp corners */
     padding: 20px;
@@ -62,8 +62,9 @@ body {
     border-radius: 0; /* Sharp corners */
     text-decoration: none;
     display: inline-block;
-    margin-top: 100px; /* Increased margin-top to raise the button */
+    margin-top: 50px;
     font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
